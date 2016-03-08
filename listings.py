@@ -10,7 +10,7 @@ def main():
 
     listings = fetcher.fetch_all()
     logger.success("Finished fetching listings")
-    writer.write("ouptput.tsv", listings)
+    writer.write("output.tsv", listings)
 
 if __name__ == '__main__':
     main()
